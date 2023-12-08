@@ -16,6 +16,5 @@ while True:
  if 'Not found' == a:
     print("ders bulunamadi: ",pin)
  else:
-    print(url)
     print("ders bulundu: ",pin)
     open("bulunandersler.txt","w").write(f"{pin} \n")
