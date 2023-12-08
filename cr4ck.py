@@ -10,7 +10,7 @@ while True:
 
 
  }
- url= f"https://kahoot.it/reserve/session/{pin}/?1702051885232"
+ url= f"https://kahoot.it/reserve/session/{pin}/?1742051885232"
  a= rs.get(url).text
  rs.close()
  if 'Not found' == a:
